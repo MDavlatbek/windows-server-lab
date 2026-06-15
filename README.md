@@ -20,6 +20,7 @@ Active Directory Domain Services
 DNS
 DHCP
 Что было сделано
+Установка Windows Server выполнена стандартным способом в VirtualBox (без детальной фиксации шагов)
 Развернут виртуальный сервер Windows Server
 Создан домен (Active Directory)
 Добавлены пользователи и группы
