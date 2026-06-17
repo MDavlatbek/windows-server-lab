@@ -13,7 +13,7 @@
 #  Архитектура лабораторной сети (Network Topology)
 Инфраструктура развернута внутри изолированной сети VirtualBox Network. Взаимодействие узлов и доменная структура организованы следующим образом:
 
-![Network Topology Diagram] (Network topology.png)
+![Network Topology Diagram] (network_architecture.png)
 
 ##  Что было реализовано в рамках проекта
 
