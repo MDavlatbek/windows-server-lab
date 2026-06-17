@@ -30,7 +30,9 @@ Windows-Server-Lab/
 │   ├── check-services.ps1
 │   └── shutdown-server.ps1
 │
-└── diagrams/
+└──diagrams/
+    └── network_architecture.png
+
 ```
 #  Архитектура лабораторной сети (Network Topology)
 Инфраструктура развернута внутри изолированной сети VirtualBox Network. Взаимодействие узлов и доменная структура организованы следующим образом:
