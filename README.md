@@ -99,7 +99,7 @@ Windows-Server-Lab/
 ### 4. Верификация учетных записей пользователей Active Directory
 С помощью командлета `Get-ADUser -Filter *` в среде PowerShell выполнена итоговая проверка наполнения базы данных Active Directory. Запрос успешно вывел как встроенные системные записи, так и созданные вручную учетные записи доменных сотрудников с корректно настроенными именами входа (`SamAccountName`) и подтвержденным активным статусом (`Enabled: True`):
 
-![Управление пользователями AD](04_active_directory_users.png)
+![Управление пользователями AD](screenshots/04_active_directory_users.png)
 
 ## Future Improvements (Планируемые улучшения)
 
