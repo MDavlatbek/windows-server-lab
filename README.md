@@ -13,34 +13,8 @@
 # 🌐 Архитектура лабораторной сети (Network Topology)
 Инфраструктура развернута внутри изолированной сети VirtualBox Network. Взаимодействие узлов и доменная структура организованы следующим образом:
 
-            [ VirtualBox Network ]
-                       │
-                       │
-        ┌──────────────┴──────────────┐
-        │                             │
+![Network Topology Diagram] (Network topology.png)
 
-┌──────────────────────┐     ┌──────────────────────┐
-│       DC-01          │     │     CLIENT-01        │
-│ Windows Server 2022  │     │ Windows 10/11        │
-│ Server Core          │     │ Domain Member        │
-│ IP: 192.168.10.10    │     │ DHCP Client          │
-│                      │     │                      │
-│ Roles:               │     │                      │
-│ - AD DS              │◄───►│ Joined: lab.local     │
-│ - DNS                │     │                      │
-│ - DHCP               │     │                      │
-└──────────────────────┘     └──────────────────────┘
-
-
-              ┌──────────────────────┐
-              │     SRV-FILE-01      │
-              │ Windows Server       │
-              │ File Server          │
-              │ IP: 192.168.10.11    │
-              │                      │
-              │ - Shared folders     │
-              │ - Permissions        │
-              └──────────────────────┘
 ## 🚀 Что было реализовано в рамках проекта
 
 ### 1. Подготовка и базовая настройка Windows Server Core
