@@ -12,21 +12,26 @@
 ## Структура проекта
 
 
-windows-server-lab/
+## Project Structure
+
+```text
+Windows-Server-Lab/
 │
 ├── README.md
+│
 ├── screenshots/
-│ ├── 01_windows_server_core_initial_configuration.png
-│ ├── 02_windows_server_core_network_configuration.png
-│ └── ...
+│   ├── server-core/
+│   ├── active-directory/
+│   ├── dns-dhcp/
+│   └── client-domain/
 │
 ├── scripts/
-│ ├── system-info.ps1
-│ ├── check-services.ps1
-│ └── shutdown-server.ps1
+│   ├── system-info.ps1
+│   ├── check-services.ps1
+│   └── shutdown-server.ps1
 │
-└── network_architecture.png
-
+└── diagrams/
+```
 #  Архитектура лабораторной сети (Network Topology)
 Инфраструктура развернута внутри изолированной сети VirtualBox Network. Взаимодействие узлов и доменная структура организованы следующим образом:
 
